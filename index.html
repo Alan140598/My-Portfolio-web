@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class = "logo">
+                    <a href="">Web Profile</a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section id = "home">
+                <div class="home-left">
+                    <h3 class="pre-title">Hello My Name Is</h3>
+                    <h1 class="home-name">ALAN KURNIAWAN</h1>
+                    <p>Hello! My name is Alan Kurniawan, and I am a Mathematics Education student at Bhinneka PGRI University, Tulungagung. I have a great interest in Web-Development, and I continue to develop my skills in programming. Apart from studying, I am active in participating in various forums which have given me valuable experience in further website development.
+                    I like challenges and am always eager to learn new things. With my background in mathematics, I hope to contribute to understanding and implementing logic in programming languages.
+                    </p>
+                    <br>
+                    <a href="">
+                        <button class="btn">My Resume</button>
+                    </a>
+                </div>
+                <div class="home-right">
+                    <img src="images/My-profile.jpeg" alt="YourPhoto">
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="main-container">
+            <h1 class="section-title-about">About</h1>
+            <p style="text-align: center">
+                Currently, I develop my interest and continue to hone my skills in the field of programming by learning various programming languages, both in the fields of websites and mathematics</p>
+            <br>
+            <div class="grid-3">
+                <!-- About 1 -->
+                <div class="about">
+                    <div class="about-icon">
+                        <img src="images/html_icon.png" width=24px height=24px alt="">
+                    </div>
+                    <h4>HTML</h4>
+                    <p>Defining the structure/framework of a website by organizing various elements into complete content</p>
+                </div>
+                <!-- About 2 -->
+                <div class="about">
+                    <div class="about-icon">
+                        <img src="images/css_icon.jpg" width=24px height=24px alt="">
+                    </div>
+                    <h4>CSS</h4>
+                    <p>Performs formatting and appearance by controlling how HTML elements are displayed, organizing the page layout of a website including placement, size, and distance between elements, as well as visual effects and provides the ability to add visual effects, transitions, and animations, making web content more dynamic and engaging.</p>
+                </div>
+                <!-- About 3 -->
+                <div class="about">
+                    <div class="about-icon">
+                        <img src="images/js_icon.png" width=24px height=24px alt="">
+                    </div>
+                    <h4>JavaScript</h4>
+                    <p>Building lives that allow adding interactivity to web pages, manipulate the DOM by accessing and changing the Document Object Model (DOM), validate form data before it is sent to the server, helping ensure incoming data meets the desired criteria so as to create complex web applications.</p>
+                </div>               
+        </div>
+    </section>
+    <!-- End of About -->
+
+    <!-- Skills and Experience -->
+    <section id="skills">
+        <div class="main-container">
+            <h1 class="section-titles-skills">Education | Experience | Skills</h1>
+            <div class="skills-grid">
+                <div class="skills-length">
+                    <!-- Experience 1 -->
+                    <div class="experience">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="experience-info">
+                            <h4 class="experience-title">Universitas Bhinneka PGRI</h4>
+                            <p>Mathematics Education</p>
+                            <h4 class="experience-date">2021 - 2025</h4>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="experience">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="experience-info">
+                            <h4 class="experience-title">SMA Katolik Santo Thomas Aquino</h4>
+                            <p>Social Science</p>
+                            <h4 class="experience-date">2018 - 2021</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-right">
+                    <p>Started learning programming in 2020, took various online courses, and is now undertaking independent study at Infinite Learning for 5 months</p>
+                    <div class="skills-list">
+                        <ul>
+                            <h3><b>Soft-Skills</b></h3>
+                            <li>TeamWork</li>
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Critical Thinking</li>
+                            <li>Time Management</li>
+                            <li>Adaptability</li>
+                            <li>Conflict Resolution</li>
+                            <li>Emotional Intelligence</li>
+                        </ul>
+
+                        <ul>
+                            <h3><b>Hard-Skills</b></h3>
+                            <li>Mathematics</li>
+                            <li>MATLAB</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>BootStrap</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Experience & Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-main-container">
+            <div style="text-align: center;">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <br>
+        <form class="contact-form">
+            <div>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div>
+                <button class="btn-submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- End of Contact -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-icons">
+            <a href="https://github.com/Alan140598">
+                <img src="images/icons8-github.png" width=24px height="24px alt="">
+            </a>
+            <a href="https://www.instagram.com/alan48348">
+                <img src="images/icons8-instagram.png" width=24px height="24px alt="">
+            </a>
+            <a href="www.linkedin.com/in/alan-kurniawan-8849aa2a1">
+                <img src="images/icons8-linkedin.png" width=24px height="24px alt="">
+            </a>
+            <a href="">
+                <img src="images/icons8-x.png" width=24px height="24px alt="">
+            </a>
+        </div>
+
+        <p>&#169; 2024 All Right Reserved</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
