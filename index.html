@@ -6,6 +6,8 @@
     <title>Web Portofolio</title>
     <!-- CSS External -->
     <link rel="stylesheet" href="style.css">
+    <!-- JavaScript External -->
+    <script defer src="app.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -25,10 +27,11 @@
                     </ul>
                 </nav>
             </div>
-            <section id = "home">
+            <section class="hidden" id = "home">
                 <div class="home-left">
                     <h3 class="pre-title">Hello My Name Is</h3>
                     <h1 class="home-name">ALAN KURNIAWAN</h1>
+                    <hr>
                     <p>Hello! My name is Alan Kurniawan, and I am a Mathematics Education student at Bhinneka PGRI University, Tulungagung. I have a great interest in Web-Development, and I continue to develop my skills in programming. Apart from studying, I am active in participating in various forums which have given me valuable experience in further website development.
                     I like challenges and am always eager to learn new things. With my background in mathematics, I hope to contribute to understanding and implementing logic in programming languages.
                     </p>
@@ -54,7 +57,7 @@
             <br>
             <div class="grid-3">
                 <!-- About 1 -->
-                <div class="about">
+                <div class="about hidden">
                     <div class="about-icon">
                         <img src="images/html_icon.png" width=24px height=24px alt="">
                     </div>
@@ -62,7 +65,7 @@
                     <p>Defining the structure/framework of a website by organizing various elements into complete content</p>
                 </div>
                 <!-- About 2 -->
-                <div class="about">
+                <div class="about hidden">
                     <div class="about-icon">
                         <img src="images/css_icon.jpg" width=24px height=24px alt="">
                     </div>
@@ -70,7 +73,7 @@
                     <p>Performs formatting and appearance by controlling how HTML elements are displayed, organizing the page layout of a website including placement, size, and distance between elements, as well as visual effects and provides the ability to add visual effects, transitions, and animations, making web content more dynamic and engaging.</p>
                 </div>
                 <!-- About 3 -->
-                <div class="about">
+                <div class="about hidden">
                     <div class="about-icon">
                         <img src="images/js_icon.png" width=24px height=24px alt="">
                     </div>
@@ -82,7 +85,7 @@
     <!-- End of About -->
 
     <!-- Skills and Experience -->
-    <section id="skills">
+    <section class="hidden" id="skills">
         <div class="main-container">
             <h1 class="section-titles-skills">Education | Experience | Skills</h1>
             <div class="skills-grid">
